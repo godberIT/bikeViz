@@ -1,0 +1,59 @@
+﻿body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+html,body,#map{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+header{
+    position:absolute;
+    left:0;
+    padding:1em;
+    background:rgba(255, 255, 255,.8);
+    z-index:999;
+}
+
+#splash{
+	background:rgba(255,255,255,.8);
+	bottom:0;left:0;
+	position:absolute;right:0;top:0;z-index:999;
+}
+
+button{
+	cursor: pointer;
+	font-size: 1.3em;
+	padding: 1em 2em;
+	margin: 20% auto 0;
+	display: block;
+}
+button[disabled]{
+	cursor:wait;
+}
+
+#info{
+    display:none;
+
+    background:rgba(255,255,255,.8);
+    position:absolute;
+    height:100%;
+    width:15%;
+    min-width:10em;
+    top:0;
+    right:-20%;
+    z-index:999;
+    padding:0 2em;
+    transition: right 0.5s;
+}
+
+.ol-attribution li::before {
+	content: 'Map Tiles: ';
+}
+
+.ol-viewport canvas{
+	cursor:move;
+}

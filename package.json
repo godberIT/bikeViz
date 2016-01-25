@@ -1,0 +1,13 @@
+{
+  "name": "bikevis",
+  "version": "1.0.0",
+  "description": "Visualisation of bike routes",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "html-minifier": "^1.1.1",
+    "tsc": "^1.20150623.0"
+  },
+  "devDependencies": {},
+  "author": "Gregor Godbersen",
+}
